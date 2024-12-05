@@ -49,3 +49,10 @@ uvicorn==0.32.0
 Werkzeug==3.0.6
 wheel==0.44.0
 wrapt==1.16.0
+fastapi
+uvicorn
+tensorflow
+numpy
+pandas
+scikit-learn
+joblib

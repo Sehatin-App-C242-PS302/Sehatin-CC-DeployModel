@@ -17,7 +17,8 @@ uvicorn app:app --reload
 http://127.0.0.1:8000
 
 *Deployed*
+1. gcloud init
 
-1. gcloud builds submit --tag gcr.io/deploy-model1/fast-api
+2. gcloud builds submit --tag gcr.io/sehatin-cc-final/fast-api
 
-2. gcloud run deploy --image gcr.io/deploy-model1/fast-api --platform managed
+3. gcloud run deploy --image gcr.io/sehatin-cc-final/fast-api --platform managed
